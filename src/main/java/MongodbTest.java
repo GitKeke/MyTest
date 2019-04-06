@@ -18,6 +18,6 @@ public class MongodbTest {
              System.out.println("用户ID:"+document.getString("userid"));
              System.out.println("浏览量："+document.getInteger("visits"));
          }
-         client.close();//关闭连接
+         client.close();//关闭
     }
 }
