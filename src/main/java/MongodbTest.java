@@ -8,6 +8,7 @@ import org.bson.Document;
  * Created by keke on 2020/7/17.
  */
 public class MongodbTest {
+	
     public static void main(String[] args) {
          MongoClient client=new MongoClient("192.168.184.134");//创建连接
          MongoDatabase spitdb = client.getDatabase("spitdb");//打开数据库
